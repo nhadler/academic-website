@@ -129,17 +129,20 @@ strong { font-weight: 600; }
 }
 .theme-toggle:hover { color: var(--ink); }
 .theme-toggle svg { width: 18px; height: 18px; }
-.theme-toggle .icon-moon { display: none; }
+.theme-toggle .icon-sun,
+.theme-toggle .icon-moon,
+.theme-toggle .icon-auto { display: none; }
 
+[data-theme-mode="light"] .theme-toggle .icon-sun { display: block; }
+[data-theme-mode="dark"] .theme-toggle .icon-moon { display: block; }
+[data-theme-mode="auto"] .theme-toggle .icon-auto { display: block; }
+
+/* No-JS fallback: show sun in light OS, moon in dark OS */
+:root:not([data-theme-mode]) .theme-toggle .icon-sun { display: block; }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .theme-toggle .icon-sun { display: none; }
-  :root:not([data-theme="light"]) .theme-toggle .icon-moon { display: block; }
+  :root:not([data-theme-mode]) .theme-toggle .icon-sun { display: none; }
+  :root:not([data-theme-mode]) .theme-toggle .icon-moon { display: block; }
 }
-
-[data-theme="dark"] .theme-toggle .icon-sun { display: none; }
-[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
-[data-theme="light"] .theme-toggle .icon-sun { display: block; }
-[data-theme="light"] .theme-toggle .icon-moon { display: none; }
 
 /* ── Sections ─────────────────────────────────────────────────────────── */
 .section {
