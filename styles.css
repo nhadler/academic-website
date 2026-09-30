@@ -193,7 +193,8 @@ h1, h2, h3 { font-weight: 400; margin: 0; }
 
 .hero-body p {
   margin: 0 0 18px;
-  color: var(--ink-2);
+  color: var(--ink);
+  text-align: left;
   line-height: 1.65;
   font-size: 17px;
 }
@@ -241,7 +242,8 @@ h1, h2, h3 { font-weight: 400; margin: 0; }
 /* ── About ────────────────────────────────────────────────────────────── */
 .about-body p {
   margin: 0 0 18px;
-  color: var(--ink-2);
+  color: var(--ink);
+  text-align: left;
   font-size: 17px;
   line-height: 1.65;
 }
