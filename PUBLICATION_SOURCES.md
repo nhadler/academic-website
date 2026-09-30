@@ -29,4 +29,4 @@ Lists are newest first within their publication category. Journal articles use o
 - Potassium 2-ethylhexanoate JACS: December 2, 2025
 - Gold catalysis JACS: March 4, 2021
 
-The separate preprint list has Landscaper (February 2026; latest version February 21) before Libra-ML ChemRxiv (January 28, 2026). The homepage selected publications show hydroformylation, LatentFlow, ketone hydrogenation, and Landscaper; ChemRxiv remains only on the full publications page.
+The separate preprint list has Landscaper (February 2026; latest version February 21) before Libra-ML ChemRxiv (January 28, 2026). The homepage selected publications show hydroformylation, ketone hydrogenation, and Landscaper; ChemRxiv remains only on the full publications page.
